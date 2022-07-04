@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Kaisei+Decol&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -37,19 +38,20 @@ header{
 }
 #sobre-texto{
     background-color: #FFC46C;
-    height: 40vh;
 }
 #sobre-texto h1{
     text-align: center;
     font-family: 'League Gothic', sans-serif;
-    font-size: 2rem;
+    font-size: 10vw;
     padding-top: 2vh;
 }
 #sobre-texto p{
     text-align: center;
     font-family: 'League Gothic', sans-serif;
-    font-size: 1.88rem;
-    padding: 0 1vw 0 1vw;
+    font-size: 9.1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 4%;
     
 }
 #graos img{
@@ -61,12 +63,12 @@ header{
 }
 #texto-intro{
     background-color: #FFBE82;
-    height: 35vh;
+    
 }
 #texto-intro h1{
     font-family:'League Gothic', sans-serif;
     text-align: right;
-    font-size: 3.2rem;
+    font-size: 15vw;
     padding-right: 8.5vw;
 }
 main{
@@ -76,30 +78,28 @@ main{
 #bebidas{
     background-color: #FFB571;
     border-radius: 10vh;
-    width: 65vw;
+    width: 75%;
     text-align: center;
-    margin-left: 12vw;
+    margin-left: 9.2vw;
     margin-top: 8vh;
     margin-bottom: 6vh;
-    padding-bottom: 10vh;
-    height: 8vh;
     font-family:'Kaisei Decol', serif;
 }
 #bebidas h1{
-    padding-top: 1.5vh;
+    font-size: 8vw;
 }
 .bebidas{
-    padding-left: 4.7vw;
+    margin-left: 5vw;
 }
 .nome-bebida{
     background-color: #FFB571;
     border-radius: 10vh;
-    width: 50vw;
+    width: 50%;
     text-align: center;
-    margin-left: 20vw;
     margin-top: 2vh;
     margin-bottom: 7vh;
-    font-size: 0.8rem;
+    margin-left: 21vw;
+    font-size: 3vw;
     font-family:'Kaisei Decol', serif;
 }
 .contato{
@@ -109,37 +109,46 @@ main{
     margin-bottom: 4vh;
     padding-top: 4.5vh;
     background-color: #FFCE84;
-    height: 115vh;
 }
-.contato h1{
+#contato{
     background-color: #FFB571;
     text-align: center;
     border-radius: 10vh;
-    width: 50vw;
-    margin-left: 21.5vw;
-    padding-bottom: 1vh;
+    width: 50%;
+    margin-left: 25%;
     font-family: 'Kaisei Decol', serif;
-    font-size: 1.5rem;
 }
-.contato h3{
+#contato h1{
+    font-size: 8vw;
+    margin-bottom: 2%;
+}
+.form{
     background-color: #FFB571;
     text-align: center;
     border-radius: 10vh;
-    width: 30vw;
+    width: 35%;
     margin-left: 32vw;
     margin-top: 3vh;
     font-family: 'Kaisei Decol', serif;
-    font-size: 1rem;
+}
+.contato h3{
+    font-size: 5vw;
+}
+.contato p{
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 5vw;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
 }
 .formulario{
-    width: 90%;
-    height: 7vh;
+    width: 85vw;
+    height: 5vh;
     margin-left: 5vw;
     margin-top: 2vh;
     border-radius: 2vh;
 }
 #texto-formulario{
-    width: 90%;
+    width: 85vw;
     height: 15vh;
     margin-left: 5vw;
     margin-top: 2vh;
@@ -148,14 +157,12 @@ main{
 .botao{
     margin-left: 5vw;
     margin-top: 1vh;
+    padding-bottom: 0.7%;
     background-color: #FFB571;
     border-radius: 10vh;
     width: 20vw;
-}
-.contato p{
-    text-align: center;
-    margin-top: 2vh;
-    font-size: 1.3rem;
+    font-family: 'Kaisei Decol', serif;
+    font-size: 3.5vw;
 }
 footer{
     background-color: #FFB571;
@@ -168,11 +175,20 @@ footer{
     padding-top: vh;
     padding-left: 1vw;
     width: 65vw;
-  
 }
 #menu-hamburger{
     padding-right: 2vw;
     width: 15vw;
+}
+#social{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+#social img{
+    width: 10vw;
 }
     
 
