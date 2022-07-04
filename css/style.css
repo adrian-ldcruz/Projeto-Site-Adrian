@@ -15,7 +15,7 @@ header{
    
 }
 #imagem-inicial img{
-    width: 100vw;
+    max-width: 100%;
     display: block;
 }
 .café img{
@@ -23,13 +23,11 @@ header{
     border-radius: 4vw;
 }
 #intro img{
-    width: 100vw;
-    height: 20%;
+    max-width: 100%;
     display: block;
 }
 #imagem-varios-cafes img{
-    width: 100vw;
-    height: 20%;
+    max-width: 100%;
     display: block;
 }
 .sobre img{
@@ -55,7 +53,7 @@ header{
     
 }
 #graos img{
-    width: 100vw;
+    max-width: 100%;
     margin-top: 5vh;
 }
 #intro{
