@@ -22,6 +22,7 @@ header{
 .café img{
     width: 90vw;
     border-radius: 4vw;
+    box-shadow: 0vw 1vw #462a13ab;
 }
 #intro img{
     max-width: 100%;
@@ -84,6 +85,7 @@ main{
     margin-top: 8vh;
     margin-bottom: 6vh;
     font-family:'Kaisei Decol', serif;
+    box-shadow: 0vw 1vw #462a13ab;
 }
 #bebidas h1{
     font-size: 8vw;
@@ -101,6 +103,7 @@ main{
     margin-left: 21vw;
     font-size: 3vw;
     font-family:'Kaisei Decol', serif;
+    box-shadow: 0vw 1vw #462a13ab;
 }
 .contato{
     margin-top: 5vh;
@@ -117,6 +120,7 @@ main{
     width: 50%;
     margin-left: 25%;
     font-family: 'Kaisei Decol', serif;
+    box-shadow: 0vw 1vw #81663d54;
 }
 #contato h1{
     font-size: 8vw;
@@ -127,9 +131,10 @@ main{
     text-align: center;
     border-radius: 10vh;
     width: 35%;
-    margin-left: 32vw;
+    margin-left: 31vw;
     margin-top: 3vh;
     font-family: 'Kaisei Decol', serif;
+    box-shadow: 0vw 1vw #81663d54;
 }
 .contato h3{
     font-size: 5vw;
@@ -190,5 +195,4 @@ footer{
 #social img{
     width: 10vw;
 }
-    
 
