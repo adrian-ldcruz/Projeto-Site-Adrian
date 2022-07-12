@@ -8,6 +8,9 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
+a{
+    display: none;
+}
 header{
     background-color: #FFB571;
     display: flex;
@@ -16,7 +19,7 @@ header{
    
 }
 #imagem-inicial img{
-    max-width: 100%;
+    width: 100vw;
     display: block;
 }
 .café img{
@@ -25,7 +28,7 @@ header{
     box-shadow: 0vw 1vw #462a13ab;
 }
 #intro img{
-    max-width: 100%;
+    width: 100vw;
     display: block;
 }
 #imagem-varios-cafes img{
@@ -53,7 +56,6 @@ header{
     padding-left: 1vw;
     padding-right: 1vw;
     padding-bottom: 4%;
-    
 }
 #graos img{
     max-width: 100%;
@@ -82,7 +84,7 @@ main{
     width: 75%;
     text-align: center;
     margin-left: 9.2vw;
-    margin-top: 8vh;
+    margin-top: 7vh;
     margin-bottom: 6vh;
     font-family:'Kaisei Decol', serif;
     box-shadow: 0vw 1vw #462a13ab;
@@ -177,7 +179,6 @@ footer{
     margin-left: 15vw;
 }
 #logo{
-    padding-top: vh;
     padding-left: 1vw;
     width: 65vw;
 }
@@ -194,5 +195,229 @@ footer{
 }
 #social img{
     width: 10vw;
+}
+.colunas{
+    display: none;
+}
+
+@media only screen and (min-width: 768px)
+{
+    a{
+        display: flex;
+        text-decoration: none;
+        font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+        color: white;
+        margin-top: 1.4vw;
+        margin-right: 3vw;
+    }
+    #menu-hamburger{
+        display: none;
+    }
+    header{
+        background-color: #FFB571;
+        display: flex;
+        width: 100vw;   
+    }
+    #imagem-inicial img{
+        width: 100vw;
+        display: block;
+    }
+    .café img{
+        width: 90vw;
+        border-radius: 4vw;
+        box-shadow: 0vw 0.5vw #462a13ab;
+    }
+    #intro img{
+        width: 100vw;
+    }
+    #imagem-varios-cafes img{
+        width: 100vw;
+        display: block;
+    }
+    .sobre{
+        width: 100vw;
+        display: flex;
+        margin-top: 5vh;
+    }
+    .sobre img{
+        width: 50vw;
+        margin-top: 0;
+    }
+    #sobre-texto{
+        width: 50vw;
+        background-color: #FFC46C;
+        padding-right: 1vw;
+        padding-top: 1vw;
+    }
+    #sobre-texto h1{
+        text-align: center;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 7vw;
+        padding-top: 2vh;
+    }
+    #sobre-texto p{
+        text-align: center;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 5vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-bottom: 4%;
+    }
+    #graos img{
+        max-width: 100%;
+        margin-top: 5vh;
+    }
+    #intro{
+        margin-top: 5vh;
+        width: 100vw;
+        background-color: #FFBE82;
+        display: flex;
+    }
+    #texto-intro h1{
+        font-family:'League Gothic', sans-serif;
+        text-align: right;
+        font-size: 8vw;
+        padding-right: 4.4vw;
+        padding-top: 1vw;
+    }
+    main{
+        background-color: #623918;
+        padding-top: 2vh;
+    }
+    #bebidas{
+        background-color: #FFB571;
+        border-radius: 10vh;
+        width: 40%;
+        text-align: center;
+        margin-left: 29.5vw;
+        margin-top: 8vh;
+        margin-bottom: 10vh;
+        font-family:'Kaisei Decol', serif;
+        box-shadow: 0vw 0.5vw #462a13ab;
+    }
+    #bebidas h1{
+        font-size: 4vw;
+    }
+    .nome-bebida{
+        background-color: #FFB571;
+        border-radius: 10vh;
+        width: 40%;
+        text-align: center;
+        margin-top: 2vh;
+        margin-bottom: 10vh;
+        margin-left: 14.5vw;
+        font-size: 1vw;
+        font-family:'Kaisei Decol', serif;
+        box-shadow: 0vw 0.5vw #462a13ab;
+    }
+    .contato{
+        margin-top: 5vh;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        margin-bottom: 5vh;
+        padding-top: 9vh;
+        background-color: #FFCE84;
+    }
+    #contato{
+        background-color: #FFB571;
+        text-align: center;
+        border-radius: 10vh;
+        width: 40%;
+        margin-left: 28vw;
+        font-family: 'Kaisei Decol', serif;
+        box-shadow: 0vw 0.5vw #81663d54;
+    }
+    #contato h1{
+        font-size: 4vw;
+        margin-bottom: 2%;
+    }
+    .form{
+        background-color: #FFB571;
+        text-align: center;
+        border-radius: 10vh;
+        width: 20vw;
+        margin-left: 36.5vw;
+        margin-top: 7vh;
+        margin-bottom: 7vh;
+        font-family: 'Kaisei Decol', serif;
+        box-shadow: 0vw 0.5vw #81663d54;
+    }
+    .contato h3{
+        font-size: 2vw;
+    }
+    .contato p{
+        text-align: center;
+        margin-top: 2vh;
+        font-size: 3vw;
+        font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    }
+    .formulario{
+        width: 85vw;
+        height: 7vh;
+        margin-left: 3.8vw;
+        margin-top: 2vh;
+        border-radius: 2vh;
+    }
+    #texto-formulario{
+        width: 85vw;
+        height: 25vh;
+        margin-left: 3.8vw;
+        margin-top: 2vh;
+        border-radius: 2vh;
+    }
+    .botao{
+        margin-left: 3.8vw;
+        margin-top: 1vh;
+        padding-bottom: 0.7%;
+        background-color: #FFB571;
+        border-radius: 10vh;
+        width: 10vw;
+        font-family: 'Kaisei Decol', serif;
+        font-size: 2vw;
+    }
+    footer{
+        background-color: #FFB571;
+    }
+    #logo2{
+        width: 40vw;
+        margin-left: 29.2vw;
+    }
+    #logo{
+        padding-left: 1vw;
+        width: 25vw;
+    }
+    #menu-hamburger{
+        padding-right: 2vw;
+        width: 15vw;
+    }
+    #social{
+        margin-top: 7vh;
+        margin-bottom: 9vh;
+        width: 100%;
+        justify-content: space-evenly;
+        display: flex;
+    }
+    #social img{
+        width: 7vw;
+    }
+    #colunas{
+        display: table;
+    }
+    #colunas img{
+        width: 40vw;
+        height: 28vw;
+        margin-left: 4.5vw;
+    }
+    .coluna1{
+        float: left;
+        width: 50%;
+    }
+    .coluna2{
+        float: left;
+        width: 50%;
+    }
+    .bebidas{
+        display: none;
+    }
 }
 
